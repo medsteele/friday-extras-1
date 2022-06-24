@@ -5,7 +5,7 @@ let interval = setInterval(() => {
 }, 1000);
 
 document.getElementById("button1").addEventListener("click", () => {
-    setInterval(interval);
+    progress1.value = setInterval(interval);
 });
 
 document.getElementById("button2").addEventListener("click", () => {
