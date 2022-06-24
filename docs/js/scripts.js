@@ -3,7 +3,7 @@ const progress1 = document.getElementById("progress1");
 
 document.getElementById("button1").addEventListener("click", () => {
     setInterval(() => {
-        progress1.value += 10;
+        progress1.value += 5;
     }, 1000)
 });
 
