@@ -1,11 +1,11 @@
 
 const progress1 = document.getElementById("progress1");
 
-let progressBarInterval = setInterval(() => {progress1.value += 5;}, 1000);
+let progressBarInterval = setInterval(() => {progress1.value += 2;}, 1000);
 
 document.getElementById("button1").addEventListener("click", () => {
     clearInterval(progressBarInterval);
-    progressBarInterval = progressBarInterval = setInterval(() => {progress1.value += 5;}, 1000);
+    progressBarInterval = setInterval(() => {progress1.value += 2;}, 1000);
     alert('progress bar restarted');  
 });
 
