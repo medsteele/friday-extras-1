@@ -14,7 +14,7 @@ document.getElementById("button1").addEventListener("click", () => {
 document.getElementById("button2").addEventListener("click", () => {
     clearInterval(progressBarInterval);
     progress1.value = progress1.value;
-    alert('progress bar value = ' + progress1.value);
+    alert('progress bar paused\nprogress bar value = ' + progress1.value);
 });
 
 document.getElementById("button3").addEventListener("click", () => {
